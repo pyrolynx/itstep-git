@@ -1,3 +1,6 @@
-a = int(input())
-b = int(input())
-print(a + b)
+a, b = int(input()), int(input())
+operation = input()
+if operation() == "+":
+    print(a + b)
+elif operation == "-":
+    print(a - b)
