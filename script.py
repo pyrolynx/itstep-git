@@ -9,3 +9,5 @@ elif operation == "-":
     print(a - b)
 elif operation == "x" or operation == "*":
     print(a * b)
+elif operation == "/":
+    print(a / b)
