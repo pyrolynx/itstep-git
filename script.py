@@ -17,3 +17,5 @@ elif operation == "/":
         print("Division by zero")
         exit(1)
     print(a / b)
+elif operation == "^":
+    print(a ** b)
