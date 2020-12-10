@@ -1,1 +1,3 @@
 git.code-workspace
+my_local_files/
+*.pyc
