@@ -1,6 +1,6 @@
-a, b = int(input()), int(input())
+a, b = int(input("Введите операнд А: ")), int(input("Введите операнд В: "))
 
-operation = input()
+operation = input("Введите операцию: ")
 if operation() == "+":
     print(a + b)
 elif operation == "%" or operation == "mod":
