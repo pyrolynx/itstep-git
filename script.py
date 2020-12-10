@@ -1,21 +1,22 @@
-a, b = int(input("Введите операнд А: ")), int(input("Введите операнд В: "))
+operand_1, operand_2 = int(input("Введите операнд А: ")), int(input("Введите операнд В: "))
 
 operation = input("Введите операцию: ")
 if operation() == "+":
-    print(a + b)
+    print(operand_1 + operand_2)
 elif operation == "%" or operation == "mod":
-    if b == 0:
+    if operand_2 == 0:
         print("Division by zero")
         exit(1)
-    print(a % b)
+    print(operand_1 % operand_2)
 elif operation == "-":
-    print(a - b)
+    print(operand_1 - operand_2)
 elif operation == "x" or operation == "*":
-    print(a * b)
+    print(operand_1 * operand_2)
 elif operation == "/":
-    if b == 0:
+    if operand_2 == 0:
         print("Division by zero")
         exit(1)
-    print(a / b)
+    print(operand_1 / operand_2)
 elif operation == "^":
     print(a ** b)
+
