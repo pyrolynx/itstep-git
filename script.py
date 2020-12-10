@@ -1,7 +1,7 @@
 a, b = int(input("Введите операнд А: ")), int(input("Введите операнд В: "))
 
 operation = input("Введите операцию: ")
-if operation() == "+":
+if operation == "+":
     print(a + b)
 elif operation == "%" or operation == "mod":
     if b == 0:
